@@ -1,0 +1,103 @@
+#home{
+    background-color: #333;
+    color: #fff;
+}
+.navbar{
+    background-color: navy;
+    border-bottom:#333 3px solid;
+    opacity: 0.8;
+}
+.dark-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    min-height: 700px;
+}
+#home-section{
+    background: url('image/apple-black-and-white-black-and-white-169573.jpg');
+    min-height: 700px;
+    /* background-color: mintcream;
+    background-position: 50% 20;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover; */
+    background-size: cover;
+    background-attachment: fixed;
+}
+#home-section .fa{
+    color: #008eb6;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.home-inner{
+    padding-top: 70px;
+
+}
+#explore-head-section{
+    background-color: rgb(233, 211, 15);
+}
+#create-section .fa{
+    color: #008eb6;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+#share-section .fa{
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+#contactModal{
+    color: black;
+}
+.card{
+    opacity: 0.6;
+}
+#image-create-something{
+    border-radius: 40px;
+}
+#image-create-something:hover{
+    border-radius: 40px;
+
+}
+#image-share:hover{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 20px;
+    opacity: 0.8;
+  }
+  
+  #image-create-overlay:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
